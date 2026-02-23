@@ -1,0 +1,160 @@
+.dropdown-holiday-calendar .dropdown-menu {
+    min-width: 450px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.calendar-widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.calendar-widget-header #current-month-year {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.calendar-widget-header .btn {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-light-gray);
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.calendar-widget-header .btn:hover {
+    background-color: var(--gray-200);
+}
+
+.calendar-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 4px;
+    margin-bottom: 0;
+}
+
+.calendar-table th {
+    text-align: center;
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+}
+
+.calendar-table td {
+    text-align: center;
+    vertical-align: middle;
+    width: 14.28%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: default;
+    transition: transform 0.1s;
+    border: 1px solid transparent;
+}
+
+.calendar-table td:hover {
+    background-color: var(--gray-50);
+}
+
+.calendar-day-holiday {
+    background-color: var(--blue-300) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--blue-300) !important;
+    font-weight: 500;
+}
+
+.calendar-day-weekend {
+    background-color: var(--red-100) !important;
+    color: var(--red-500);
+    border: 1px solid var(--red-100) !important;
+    font-weight: 500;
+}
+
+.calendar-day-leave {
+    background-color: var(--yellow-50) !important;
+    color: var(--yellow-700);
+    border: 1px solid var(--yellow-100) !important;
+    font-weight: 500;
+}
+
+.calendar-day-today {
+    border: 1px solid var(--green-400) !important;
+    font-weight: 500;
+    color: var(--green-600) !important;
+}
+
+.calendar-legend {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.calendar-widget-footer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--border-color);
+}
+
+.full-year-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.month-container {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.month-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.calendar-table-mini td {
+    height: 35px;
+    font-size: 0.85rem;
+}
+
+.calendar-table-mini th {
+    padding: 5px 0;
+    font-size: 0.75rem;
+}
+
+[data-theme="dark"] .dropdown-holiday-calendar .dropdown-menu {
+    background-color: var(--card-bg);
+}

@@ -25,8 +25,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/holidaycalendar/css/holidaycalendar.css"
-# app_include_js = "/assets/holidaycalendar/js/holidaycalendar.js"
+app_include_css = "/assets/holidaycalendar/css/holiday_calendar.css"
+app_include_js = "/assets/holidaycalendar/js/holiday_calendar_widget.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/holidaycalendar/css/holidaycalendar.css"
