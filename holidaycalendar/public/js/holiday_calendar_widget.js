@@ -160,7 +160,19 @@ $(function () {
                 ]
             });
 
-            let html = '<div class="full-year-grid">';
+            let html = `
+                <div class="calendar-legend" style="margin-top: 0; margin-bottom: 20px;">
+                    <div class="legend-item">
+                        <span class="legend-color calendar-day-holiday"></span> Holiday
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color calendar-day-weekend"></span> Weekly Off
+                    </div>
+                    <div class="legend-item">
+                        <span class="legend-color calendar-day-today"></span> Today
+                    </div>
+                </div>
+                <div class="full-year-grid">`;
 
             for (let month = 0; month < 12; month++) {
                 html += '<div class="month-container">';
