@@ -4,6 +4,7 @@ app_publisher = "rbr"
 app_description = "plugin to see holiday in calendar format"
 app_email = "rbrelite@rbrpvtltd.com"
 app_license = "mit"
+required_apps = ["erpnext"]
 
 # Apps
 # ------------------
