@@ -72,7 +72,7 @@
 .calendar-day-holiday {
     background-color: var(--blue-300) !important;
     /* color: var(--primary-color) !important; */
-    color: #383838 !important;
+    color: var(--red-500) !important;
     border: 1px solid var(--blue-300) !important;
     font-weight: 500;
 }
