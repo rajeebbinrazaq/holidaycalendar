@@ -26,11 +26,11 @@ $(function () {
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownCalendar">
                         <div class="calendar-widget-header">
                             <button class="btn" id="prev-month">
-                                <svg class="icon icon-sm"><use href="#icon-left"></use></svg>
+                                <svg class="icon icon-sm">&larr;</svg>
                             </button>
                             <span id="current-month-year"></span>
                             <button class="btn" id="next-month">
-                                <svg class="icon icon-sm"><use href="#icon-right"></use></svg>
+                                <svg class="icon icon-sm">&rarr;</svg>
                             </button>
                         </div>
                         <div id="calendar-widget-body"></div>
